@@ -10,6 +10,7 @@ import { useMouseDragScroll } from "./hooks/useMouseDragScroll";
 import { CTASection } from "./components/cta/CTASection";
 import { ServicesSection } from "./components/services/ServicesSection";
 import { FAQSection } from "./components/faq/FAQSection";
+import { FooterSection } from "./components/footer/FooterSection";
 
 function App() {
     useMouseDragScroll({ sensitivity: 1.5 });
@@ -34,9 +35,7 @@ function App() {
             <ServicesSection />
             <FAQSection />
             <CTASection />
-            <footer>
-                <div></div>
-            </footer>
+            <FooterSection />
         </div>
     );
 }
